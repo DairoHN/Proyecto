@@ -1,0 +1,266 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+    background-color: #4a5fb5; /* Color de fondo blanco */
+
+
+margin: 0; /* Elimina los márgenes predeterminados del cuerpo */
+    padding: 0; /* Elimina el relleno predeterminado del cuerpo */
+}
+.encabezado-1 {
+  background-color: #ffffff; /* Fondo gris oscuro */
+
+
+width: 100%; /* Ancho del 100% para extender de lado a lado */
+  text-align: center; /* Alineación de contenido en el centro */
+  padding: 10px 0; /* Espaciado interno arriba y abajo */
+}
+
+/* Estilo para el logotipo */
+.encabezado-superior img {
+  max-width: 100%; /* Logotipo se ajusta al ancho de la caja */
+  height: auto; /* Mantiene la proporción del logotipo */
+}
+
+.menu-item {
+  border: 2px solid #000;
+  list-style: none;
+  text-align: center;
+  display: inline;
+  margin-right: 20px;
+  background-color: #ffffff; /* Color de fondo de la caja */
+  padding: 10px; /* Espaciado dentro de cada caja */
+  margin: 10px; /* Espaciado entre las cajas */
+}
+
+/* Estilo para los enlaces del menú */
+.menu-item a {
+  
+  text-decoration: none;
+  color: #000000;
+  font-weight: Gotham;
+}
+.caja-contenido {
+  background-color: #ccc; /* Fondo gris */
+  font-family: Verdana, sans-serif; /* Fuente Verdana con fuente de respaldo sans-serif */
+  font-size: 16px; /* Tamaño de fuente más pequeño */
+
+
+color: #333; /* Color de texto */
+  padding: 10px; /* Espaciado interno */
+  text-align: center; /* Alineación de texto en el centro */
+  border: 5px solid #000; /* Borde negro de 2 píxeles */
+  width: 50%; /* Ancho del 50% para centrar horizontalmente */
+  margin: 0 auto; /* Margen automático para centrar horizontalmente */
+  position: CENTER; /* Posición absoluta para ubicar abajo */
+  bottom: 10px; /* Espacio inferior de 10 píxeles */
+}
+.linea-gris {
+
+
+border: none;
+    border-top: 1px solid #ccc; /* Línea gris de 1 píxel sólido */
+    width: 100%; /* Ancho del 100% para extender de lado a lado */
+}
+.caja-2 {
+
+
+width: 50px; /* Ancho de la caja */
+    height: 50px; /* Alto de la caja */
+    background-color: #ccc; /* Color de fondo gris */
+    border: 3px solid red; /* Borde rojo de 2 píxeles */
+    margin: 0 auto; /* Centrar horizontalmente */
+    margin-top: 10px; /* Espacio superior para centrar verticalmente */
+}
+.encabezado-final {
+    background-color: #655d5d; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+    padding: 10px 0; /* Espaciado interno arriba y abajo */
+    text-align: center; /* Alineación de texto en el centro */
+    width: 100%; /* Ancho del 100% para extender de lado a lado */
+}
+
+/* Estilo para los logotipos */
+.encabezado-final img {
+  width: 40px; /* Ancho de los logotipos */
+  height: 40px; /* Alto de los logotipos */
+  margin: 10px; /* Espaciado entre los logotipos */
+}
+.caja-datos {
+    background-color: #ccc; /* Fondo gris */
+    border: 2px solid #000; /* Borde negro de 2 píxeles */
+    padding: 20px; /* Espaciado interno */
+    width: 100%; /* Ancho del 100% para extender de lado a lado */
+    text-align: left; /* Alineación de texto a la izquierda */
+}
+
+/* Estilo para los elementos de datos */
+.dato {
+    margin-top: 10px; /* Espacio entre elementos de datos */
+}
+
+.dato label {
+    font-weight: bold; /* Texto en negrita para las etiquetas */
+    display: block; /* Mostrar etiquetas en una nueva línea */
+}
+
+.dato span {
+    display: block; /* Mostrar datos en una nueva línea */
+}
+.tabla-clientes {
+    width: 100%; /* Ancho del 100% para extender de lado a lado */
+    border-collapse: collapse; /* Colapso de bordes de celda */
+}
+
+/* Estilo para las filas pares */
+.fila-gris {
+    background-color: #bdbcbc; /* Fondo gris claro */
+}
+
+/* Estilo para las filas impares */
+.fila-blanca {
+    background-color: #fff; /* Fondo blanco */
+}
+
+/* Estilo para las celdas de datos */
+.tabla-clientes td {
+    border: 1px solid #000; /* Borde negro de 1 píxel */
+    padding: 5px; /* Espaciado interno */
+    text-align: center; /* Alineación de texto en el centro */
+}
+
+/* Estilo para las celdas de encabezado */
+.tabla-clientes th {
+    border: 1px solid #000; /* Borde negro de 1 píxel */
+    padding: 5px; /* Espaciado interno */
+    background-color: #ff2424; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+}
+.caja {
+    background-color: #f0f0f0; /* Fondo gris claro */
+    width: 50%; /* Ancho del 50% para centrar */
+    margin: 0 auto; /* Centrar horizontalmente */
+    padding: 20px; /* Espaciado interno */
+    text-align: center; /* Alineación de contenido en el centro */
+}
+
+/* Estilo para el formulario */
+.caja form {
+    margin: 0; /* Elimina el margen predeterminado del formulario */
+}
+
+/* Estilo para los encabezados */
+.caja h2 {
+    margin-top: 0; /* Elimina el margen superior del encabezado */
+}
+.tabla-habitaciones {
+    width: 100%; /* Ancho del 100% para extender de lado a lado */
+    border-collapse: collapse; /* Colapso de bordes de celda */
+}
+
+/* Estilo para las filas pares */
+.tabla-habitaciones tr:nth-child(even) {
+    background-color: #f0f0f0; /* Fondo gris claro para filas pares */
+}
+
+/* Estilo para las filas impares */
+.tabla-habitaciones tr:nth-child(odd) {
+    background-color: #fff; /* Fondo blanco para filas impares */
+}
+
+/* Estilo para las celdas de datos */
+.tabla-habitaciones td {
+    border: 1px solid #000; /* Borde negro de 1 píxel */
+    padding: 5px; /* Espaciado interno */
+    text-align: center; /* Alineación de texto en el centro */
+}
+
+/* Estilo para las celdas de encabezado */
+.tabla-habitaciones th {
+    border: 1px solid #000; /* Borde negro de 1 píxel */
+    padding: 5px; /* Espaciado interno */
+    background-color: #ff0000; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+}
+.caja-transparente {
+    background: rgba; /* Fondo transparente con opacidad */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Alineación de contenido en el centro */
+    font-weight: bold; /* Texto en negrita */
+    text-transform: uppercase; /* Texto en mayúsculas *//
+    max-width: 800px; /* Ancho máximo para limitar el ancho de la caja */
+    margin: 0 auto; /* Centrar horizontalmente */
+}
+
+/* Estilo para el texto dentro de la caja */
+.caja-transparente p {
+    margin: 0; /* Elimina el margen predeterminado del párrafo */
+}
+.tabla-reservas {
+
+
+width: 100%; /* Ancho del 100% para extender de lado a lado */
+    border-collapse: collapse; /* Colapso de bordes de celda */
+}
+
+/* Estilo para las filas pares */
+.tabla-reservas tr:nth-child(even) {
+    background-color: #f0f0f0; /* Fondo gris claro para filas pares */
+}
+
+/* Estilo para las filas impares */
+.tabla-reservas tr:nth-child(odd) {
+
+
+background-color: #fff; /* Fondo blanco para filas impares */
+}
+
+/* Estilo para las celdas de datos */
+.tabla-reservas td {
+    border: 1px solid #000; /* Borde negro de 1 píxel */
+    padding: 5px; /* Espaciado interno */
+    text-align: center; /* Alineación de texto en el centro */
+}
+
+/* Estilo para las celdas de encabezado */
+.tabla-reservas th {
+    border: 1px solid #000; /* Borde negro de 1 píxel */
+
+
+padding: 5px; /* Espaciado interno */
+    background-color: #f00000; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+}
+.tabla-estadisticas {
+    width: 60%; /* Ancho del 60% para centrar en la página */
+    margin: 0 auto; /* Centrar horizontalmente */
+    border-collapse: collapse; /* Colapso de bordes de celda */
+}
+
+/* Estilo para las filas pares */
+.tabla-estadisticas tr:nth-child(even) {
+    background-color: #f0f0f0; /* Fondo gris claro para filas pares */
+}
+
+/* Estilo para las filas impares */
+.tabla-estadisticas tr:nth-child(odd) {
+    background-color: #fff; /* Fondo blanco para filas impares */
+}
+
+/* Estilo para las celdas de datos */
+.tabla-estadisticas td {
+    border: 1px solid #000; /* Borde negro de 1 píxel */
+    padding: 10px; /* Espaciado interno */
+    text-align: center; /* Alineación de texto en el centro */
+}
+
+/* Estilo para las celdas de encabezado */
+.tabla-estadisticas th {
+    border: 1px solid #000; /* Borde negro de 1 píxel */
+    padding: 10px; /* Espaciado interno */
+    background-color: #333; /* Fondo gris oscuro */
+    color: #fff; /* Texto blanco */
+}
